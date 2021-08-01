@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Newsy News</title>
+</head>
+<body>
+  <div class="ui container" id="header-1">
+    <h1>Newsy News</h1>
+  </div>
+  <form class="ui container large form">
+    <div id="input-container">
+      <input type="text" placeholder="Search for news articles..." id="search-input">
+      <small>Type a search term and click the button or click the microphone and speak to search.</small>
+    </div>
+    <div id="form-buttons">
+      <button type="submit" class="ui teal huge button">Search</button>
+      <i class="microphone icon"></i>
+    </div>
+  </form>
+  <div class="ui container" id="results"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>

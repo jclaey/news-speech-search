@@ -1,0 +1,37 @@
+form {
+  margin-bottom: 5rem;
+}
+
+#header-1 {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+.microphone.icon {
+  font-size: 36px;
+  cursor: pointer;
+  transition: 0.3s;
+  padding-top: 10px;
+  margin-left: 0.5rem;
+}
+
+.microphone.icon:hover {
+  color: #8c8c8c;
+}
+
+.mic-on {
+  color: #8c8c8c;
+}
+
+#input-container {
+  margin-bottom: 1.5rem;
+}
+
+#form-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.article-item {
+  margin-bottom: 3rem;
+}
