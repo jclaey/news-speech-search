@@ -1,3 +1,3 @@
-News article search app. Search using a basic text input or using your microphone.
+News article search tool. Search using a basic text input or using your microphone.
 
 Built with HTML, CSS, JavaScript, News API, SpeechRecognition API, Fetch API, and Semantic UI.
